@@ -1,0 +1,170 @@
+{
+  "cost_per_call_simple_functions": {
+    "generateHomePhrase": {
+      "passes": [
+        {
+          "model": "Gemini 2.0 Flash",
+          "tokens": { "in": 205, "out": 50 },
+          "cost": 0.00006075
+        }
+      ],
+      "total_cost_usd": 0.00006075
+    },
+    "generateVerificationQuestion": {
+      "passes": [
+        {
+          "model": "Gemini 2.0 Flash",
+          "tokens": { "in": 216, "out": 41 },
+          "cost": 0.000057000
+        }
+      ],
+      "total_cost_usd": 0.000057000
+    }
+  },
+
+  "cost_per_call_complex_functions": {
+    "generateStepComment": {
+      "passes": [
+        {
+          "model": "Gemini 2.5 Flash",
+          "tokens": { "in": 600, "out": 150 },
+          "cost": 0.000277500
+        }
+      ],
+      "total_cost_usd": 0.000277500
+    },
+
+    "generateReprogrammingResult": {
+      "passes": [
+        {
+          "model": "Gemini 2.5 Pro",
+          "tokens": { "in": 1200, "out": 300 },
+          "cost": 0.004500000
+        }
+      ],
+      "total_cost_usd": 0.004500000
+    },
+
+    "weeklyHabitAnalysis": {
+      "passes": [
+        {
+          "model": "Gemini 2.5 Pro",
+          "tokens": { "in": 1200, "out": 300 },
+          "cost": 0.009000000
+        }
+      ],
+      "total_cost_usd": 0.009000000
+    },
+
+    "generateExecutionSummary": {
+      "passes": [
+        {
+          "model": "Gemini 2.5 Pro",
+          "tokens": { "in": 4700, "out": 1500 },
+          "cost": 0.018600000
+        },
+        {
+          "model": "GPT-4o mini",
+          "tokens": { "in": 300, "out": 300 },
+          "cost": 0.000225000
+        }
+      ],
+      "total_cost_usd": 0.018825000
+    },
+
+    "createThematicSeries": {
+      "passes": [
+        {
+          "model": "Gemini 2.5 Flash",
+          "tokens": { "in": 1650, "out": 550 },
+          "cost": 0.000935000
+        },
+        {
+          "model": "Gemini 2.5 Pro",
+          "tokens": { "in": 300, "out": 300 },
+          "cost": 0.005625000
+        },
+        {
+          "model": "GPT-4o mini",
+          "tokens": { "in": 300, "out": 300 },
+          "cost": 0.000270000
+        }
+      ],
+      "total_cost_usd": 0.006830000
+    },
+
+    "createAction": {
+      "passes": [
+        {
+          "model": "Gemini 2.5 Flash",
+          "tokens": { "in": 770, "out": 300 },
+          "cost": 0.000490500
+        },
+        {
+          "model": "Gemini 2.5 Pro",
+          "tokens": { "in": 300, "out": 300 },
+          "cost": 0.005625000
+        },
+        {
+          "model": "GPT-4o mini",
+          "tokens": { "in": 300, "out": 300 },
+          "cost": 0.000270000
+        }
+      ],
+      "total_cost_usd": 0.006385500
+    },
+
+    "generateHabitTestResponse": {
+      "passes": [
+        {
+          "model": "Gemini 2.5 Flash",
+          "tokens": { "in": 1200, "out": 500 },
+          "cost": 0.003600000
+        }
+      ],
+      "total_cost_usd": 0.003600000
+    },
+
+    "generateConversationReport": {
+      "passes": [
+        {
+          "model": "Gemini 2.5 Flash",
+          "tokens": { "in": 1000, "out": 300 },
+          "cost": 0.000525000
+        },
+        {
+          "model": "Gemini 2.5 Pro",
+          "tokens": { "in": 300, "out": 300 },
+          "cost": 0.005625000
+        },
+        {
+          "model": "GPT-4o mini",
+          "tokens": { "in": 300, "out": 300 },
+          "cost": 0.000270000
+        }
+      ],
+      "total_cost_usd": 0.006420000
+    },
+
+    "evaluateVerificationResponse": {
+      "passes": [
+        {
+          "model": "Gemini 2.0 Flash",
+          "tokens": { "in": 154, "out": 0 },
+          "cost": 0.000023100
+        },
+        {
+          "model": "Gemini 2.5 Pro",
+          "tokens": { "in": 95, "out": 0 },
+          "cost": 0.000356250
+        },
+        {
+          "model": "GPT-4o mini",
+          "tokens": { "in": 120, "out": 0 },
+          "cost": 0.000018000
+        }
+      ],
+      "total_cost_usd": 0.000397350
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "daily_usage_patterns_by_plan": {
+    "mini_75_energy": {
+      "generateHomePhrase": 1,
+      "generateConversationalResponse": 3,
+      "generateVerificationQuestion": 1,
+      "evaluateVerificationResponse": 1,
+      "weeklyHabitAnalysis": 0.14,
+      "generateStepComment": 0.1667,
+      "generateReprogrammingResult": 0.0333,
+      "generateExecutionSummary": 0.286,
+      "createThematicSeries": 0.07,
+      "generateHabitTestResponse": 0.42,
+      "createAction": 0,
+      "generateConversationReport": 0
+    },
+
+    "base_150_energy": {
+      "generateHomePhrase": 1,
+      "generateConversationalResponse": 7,
+      "generateVerificationQuestion": 3,
+      "evaluateVerificationResponse": 3,
+      "weeklyHabitAnalysis": 0.14,
+      "generateStepComment": 0.1667,
+      "generateReprogrammingResult": 0.0333,
+      "generateExecutionSummary": 0.7,
+      "createThematicSeries": 0.14,
+      "generateHabitTestResponse": 0.84,
+      "createAction": 0.5,
+      "generateConversationReport": 0.14
+    },
+
+    "pro_300_energy": {
+      "generateHomePhrase": 1,
+      "generateConversationalResponse": 12,
+      "generateVerificationQuestion": 6,
+      "evaluateVerificationResponse": 6,
+      "weeklyHabitAnalysis": 0.14,
+      "generateStepComment": 0.1667,
+      "generateReprogrammingResult": 0.0333,
+      "generateExecutionSummary": 1,
+      "createThematicSeries": 0.28,
+      "generateHabitTestResponse": 2,
+      "createAction": 1.2,
+      "generateConversationReport": 0.3
+    }
+  }
+}
